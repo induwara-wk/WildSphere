@@ -20,13 +20,13 @@ function showSlide(index) {
     slides.style.transform = `translateX(${offset}%)`;
     if (currentSlide==0){
         document.getElementById("mainslider").style.width="50%";
-        document.getElementById("body").style.backgroundImage="url('images_folder/bg1.jpg')";
+        document.getElementById("body").style.backgroundImage="url('assests/bg1.jpg')";
     }else if (currentSlide==3){
         document.getElementById("mainslider").style.width="40%";
-        document.getElementById("body").style.backgroundImage="url('images_folder/bg3.jpg')";
+        document.getElementById("body").style.backgroundImage="url('assests/bg3.jpg')";
     }else{
         document.getElementById("mainslider").style.width="55%";
-        document.getElementById("body").style.backgroundImage="url('images_folder/bg2.jpg')";
+        document.getElementById("body").style.backgroundImage="url('assests/bg2.jpg')";
     }
 }
 
