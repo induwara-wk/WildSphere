@@ -103,6 +103,15 @@ body {
     opacity: 1;
 }
 
+.navbar ul .active a::after{
+    opacity: 1;
+}
+
+.navbar ul .active a{
+    font-weight: bolder;
+    color: #597445;
+}
+
 .footer-dev {
     text-align: center;
     padding: 8px;

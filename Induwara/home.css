@@ -102,6 +102,15 @@ body {
     opacity: 1;
 }
 
+.navbar ul .home a::after{
+    opacity: 1;
+}
+
+.navbar ul .home a{
+    font-weight: bolder;
+    color: #597445;
+}
+
 .footer-dev {
     text-align: center;
     padding: 8px;
@@ -126,6 +135,7 @@ body {
     background-color: #fff;
     border-top: 1px solid #ccc;
     margin-top: 0px;
+    min-width: 1080;
 }
 
 .footer a {
@@ -174,63 +184,7 @@ body {
     border: 1px solid #729762;
     background: #729762;
     transition: 0.5s;
-}
-
-/* Existing CSS here */
-
-.menu-icon {
-    display: none;
-    font-size: 28px;
-    cursor: pointer;
-    color: #304D30;
-}
-
-@media screen and (max-width: 768px) {
-    .navbar{
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        right: 0;
-        border-radius: 0;
-        background-color: #fff;
-        backdrop-filter: blur(10px);
-        width: 100%;
-        height: 60px;
-        margin: 0 auto;
-        padding: 10px 20px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-
-    .navbar ul {
-        display: none;
-        flex-direction: column;
-        gap: 0;
-        position: absolute;
-        top: 60px;
-        left: 0;
-        right: 0;
-        background-color: #fff;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        border-radius: 0 0 10px 10px;
-        padding: 20px;
-    }
-
-    .navbar ul.show {
-        display: flex;
-    }
-
-    .navbar ul li a {
-        padding: 10px 0;
-        display: block;
-    }
-
-    .menu-icon {
-        display: block;
-    }
-}
-
-                                                                                          
+}                                                                                     
 
 
 /* Section 1 - end */
