@@ -1,5 +1,10 @@
-#body{
+body{
     background-image: url(assests/bg1.jpg);
+    width: 100%;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center; 
 }
 
 .account-form {
