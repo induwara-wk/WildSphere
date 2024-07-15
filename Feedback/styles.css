@@ -3,99 +3,101 @@
 body{
     margin: 0;
     font-family: 'Encode Sans', sans-serif;
-    background: url('./assests/forest_background.png');
+    background: linear-gradient(rgba(4, 30, 4, 0.3), rgba(4,9,30,0.7)), url('./assests/forest_background.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
     background-color: #fff;
-    border-bottom: 1px solid #ccc;
-    border-radius: 50px;
-    margin-left: 75px;
-    margin-right: 75px;
-    margin-top: 20px;
+    border-radius: 50px; 
+    margin: 20px 75px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    height: 40px;
-    transition: 0.3s;
+    height: 45px;
+    transition: 0.2s;
 }
 
-.navbar.sticky{
+.navbar.sticky {
     position: fixed;
-    margin: 0 auto;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
     border-radius: 0;
-    margin-top: 0;
-    background-color: rgba(255, 255, 255);
+    background-color: #fff;
     backdrop-filter: blur(10px);
     width: calc(100% - 40px);
-    padding: 10px 20px;
     height: 60px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
 }
 
-.navbar .logo{
+.navbar .logo {
+    
     display: flex;
     align-items: center;
 }
 
-.navbar .logo a{
+.navbar .logo a {
     display: inline-block;
 }
 
-.navbar .logo img{
+.navbar .logo img {
     height: 35px;
-    
 }
 
-.navbar ul{
+.navbar ul {
     list-style: none;
     display: flex;
     gap: 20px;
 }
 
-.navbar ul li{
+.navbar ul li {
     display: inline;
 }
 
-.navbar ul li a{
+.navbar ul li a {
     text-decoration: none;
-    color: #333;
+    color: #304D30;
     padding: 10px 15px;
     border-radius: 5px;
     position: relative;
-    transition: color 0.3s ease;
+    font-size: 17px;
 }
 
-.navbar ul li a::after{
+.navbar ul li a::after {
     content: '';
     position: absolute;
     width: 100%;
-    height: 2px;
-    background-color: #333;
-    border-radius: 60px;
+    height: 2.5px;
+    background-color: #597445;
     left: 0;
     bottom: 0;
     transition: all 0.3s;
     opacity: 0;
 }
 
-.navbar ul li a:hover{
-    color: #000;
+.navbar ul li a:hover {
+    color: #597445;
 }
 
-.navbar ul li a:hover::after{
+.navbar ul li a:hover::after {
     opacity: 1;
 }
 
-.footer-dev{
+.footer-dev {
     text-align: center;
     padding: 8px;
-    background-color: #f8f9fa;
+    background-color: #fff;
     border-top: 1px solid #ccc;
+    border: 1px solid #ccc;
     margin-top: auto;
     margin-right: 10px;
     margin-bottom: 10px;
@@ -108,23 +110,24 @@ body{
     transition: bottom 0.3s;
 }
 
-.footer{
+.footer {
     text-align: center;
     padding: 20px;
-    background-color: #f8f9fa;
+    background-color: #fff;
     border-top: 1px solid #ccc;
-    margin-top: auto;
+    margin-top: 0px;
 }
 
-.footer a{
-    color: #007bff;
+.footer a {
+    color: #304d30de;
+}
+.footer-dev a {
+    color: #304d30de;
 }
 
-.back-to-top{
+.back-to-top {
     margin-left: 20px;
     margin-bottom: 0px;
-    height: 20px;
-    width: 30px;
     position: fixed;
     left: 0; 
     cursor: pointer;
@@ -132,21 +135,13 @@ body{
     visibility: hidden; 
 }
 
-.feedback{
-    color: #333;
-    font-weight: bold;
-}
 .navbar ul .feedback a::after{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    background-color: #333;
-    border-radius: 60px;
-    left: 0;
-    bottom: 0;
     opacity: 1;
-    
+}
+
+.navbar ul .feedback a{
+    font-weight: bolder;
+    color: #597445;
 }
 
 /* Template - end */
@@ -174,6 +169,8 @@ main {
     width: px;
     max-width: 600px;
     text-align: center;
+    margin-bottom: 100px;
+    margin-top: 20px;
 }
 
 .feedback-form-section h1 {
