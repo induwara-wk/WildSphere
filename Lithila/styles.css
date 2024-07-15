@@ -1,6 +1,6 @@
 /* Gallery */
 body {
-    background-image: url('./assests/background-image.jpg'); 
+    background: linear-gradient(rgba(4, 30, 4, 0.3), rgba(4,9,30,0.7)), url('./assests/background-image.jpg'); 
     background-size: cover; 
     background-repeat: no-repeat; 
     background-attachment: fixed; 
@@ -20,11 +20,17 @@ body {
     margin: 5px 20px 0 20px;
 }
 
+h1{
+    font-family: "Poppins", sans-serif;
+}
+
 .heading {
     margin-bottom: 20px;
     margin-top: 10px;
     text-align: center;
     padding: 0;
+    color: #fff;
+
 }
 
 .box {
@@ -171,41 +177,3 @@ label {
 }
 
 /* Gallery - end*/
-
-/*Sitemap*/
-
-.sitemap-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #ccc;
-    padding: 20px;
-    border-radius: 10px;
-}
-
-.node {
-    fill: #20833d;
-    stroke: #333;
-    stroke-width: 1px;
-    cursor: pointer;
-    transition: fill 0.3s;
-}
-
-.node:hover {
-    fill: #53df5f;
-}
-
-.node-text {
-    font-size: 12px;
-    fill: white;
-    text-anchor: middle;
-    dominant-baseline: middle;
-    pointer-events: none;
-}
-
-.line {
-    stroke: #962c2c;
-    stroke-width: 2;
-}
-
-/* Sitemap - end*/
