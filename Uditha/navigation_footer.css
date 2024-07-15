@@ -8,17 +8,6 @@ body {
 
 }
 
-/* .sec1 {
-    background: linear-gradient(rgba(4, 30, 4, 0.3), rgba(4,9,30,0.7)),url('./assests/background-main.png') no-repeat center center/cover;
-    min-height: 100vh;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    margin-top: -20px;
-    padding-top: 20px;
-} */
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -102,8 +91,13 @@ body {
     opacity: 1;
 }
 
-.active{
-    font-weight: bold;
+.navbar ul .active a::after{
+    opacity: 1;
+}
+
+.navbar ul .active a{
+    font-weight: bolder;
+    color: #597445;
 }
 
 .footer-dev {
@@ -130,7 +124,7 @@ body {
     background-color: #fff;
     border-top: 1px solid #ccc;
     margin-top: 0px;
-    min-width: 1000px;
+    min-width: 1080px;
 }
 
 .footer a {
