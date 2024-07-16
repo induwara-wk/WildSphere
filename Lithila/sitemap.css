@@ -38,9 +38,9 @@ body {
     pointer-events: none;
 }
 
-.line {
-    stroke: #962c2c;
-    stroke-width: 2;
+line {
+    stroke: #ffffff;
+    stroke-width: 2px;
 }
 
 /* Sitemap - end*/
