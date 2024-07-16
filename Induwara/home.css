@@ -41,7 +41,11 @@
     border: 1px solid #729762;
     background: #729762;
     transition: 0.5s;
-}                                                                                     
+}     
+
+.hero-btn:active {
+    transform: translateY(8px);
+}
 
 
 /* Section 1 - end */
@@ -134,7 +138,6 @@
     border-radius: 30px;
     width: 90%;
     margin-left: 60px;
-    
     background-image: linear-gradient(rgba(4, 30, 4, 0.3), rgba(4,9,30,0.7)),url('./assests/quote-bg.png');
     background-size: cover;
     background-position: center;
@@ -275,6 +278,10 @@
     background-color: #729762;
 }
 
+.card-button:active {
+    transform: translateY(3px);
+}
+
 /* Section 4 - end */
 
 /* Section 5 - start */
@@ -361,6 +368,10 @@
 
 .team-button:hover{
     background-color: #729762;
+}
+
+.team-button:active {
+    transform: translateY(3px);
 }
 
 /* Section 5 - end */
