@@ -19,6 +19,7 @@ body{
     margin-bottom: 25px;
     margin-top: 0%;
     font-family: "Poppins", sans-serif;
+    color: #304D30;
 }
 
 .form-group {
@@ -31,6 +32,7 @@ body{
     margin-bottom: 0%;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
+    color: #0f2716c2;
 }
 
 .form-group input ,.step2inputs,.step3inputs{
@@ -41,22 +43,24 @@ body{
 }
 
 #con1 {
-    background-color: #45a049;
+    border: 1px solid #597445;
+    background: #597445;
     color: white;
-    border: none;
     border-radius: 12px;
     cursor: pointer;
     font-size: 16px;
     height: 30px;
     align-self: center;
     width: 75%;
-    transition: background-color 0.3s ease;
+    /* transition: background-color 0.3s ease; */
     margin-top: 5%;
     margin-bottom: 10%;
 }
 
 #con1:hover {
-    background-color: #0a480c;
+    border: 1px solid #729762;
+    background: #729762;
+    transition: 0.5s;
 }
 
 .progress_bars{
@@ -77,7 +81,7 @@ body{
 #progress-bar1,#progress-bar2,#progress-bar3,#progress-bar4,#progress-bar5,#progress-bar6,#progress-bar7,#progress-bar8,#progress-bar9,#progress-bar10,#progress-bar11,#progress-bar12,#progress-bar13{
     height: 6px;
     width: 0%;
-    background-color: #136c16;
+    background-color: #597445;
 }
 
 #stepintext, #stepintext2, #stepintext3{
@@ -99,8 +103,8 @@ body{
     transition: transform 0.3s ease;
 }
 
-.tf:hover,.step2inputs:hover,.step3inputs:hover,#eye1:hover,#eye2:hover{
-    transform: scale(1.06);
+.tf:hover,.step2inputs:hover,.step3inputs:hover{ /*,#eye1:hover,#eye2:hover*/
+    transform: scale(1.01);
 }
 
 .slider {
@@ -129,7 +133,12 @@ body{
 }
 
 .subslide ul{
-    list-style-type: none; padding-top: 40px; font-size:x-large; width: 70%; margin-left: 1px; margin-bottom: 20px; display: flex;
+    list-style-type: none; 
+    padding-top: 40px; 
+    font-size:x-large; width: 70%; 
+    margin-left: 20%; 
+    margin-bottom: 20px; 
+    display: flex;
 }
 
 .slider2,.slider3 {
@@ -152,7 +161,7 @@ body{
 }
 
 #step2back,#step2next,#step3next,#step3back {
-    background-color: #45a049;
+    background-color: #597445;
     color: white;
     border: none;
     padding: 10px;
@@ -176,7 +185,7 @@ body{
 #tostep1,#tostep2{
     margin-top: 7%;
     margin-left: 50px;
-    background-color: #45a049;
+    background-color: #597445;
     color: white;
     cursor: pointer;
     border: none;
@@ -187,7 +196,7 @@ body{
 
 .EOC{
     margin-left: 135px;
-    background-color: #45a049;
+    background-color: #597445;
     color: white;
     cursor: pointer;
     border: none;
@@ -197,13 +206,15 @@ body{
 }
 
 #step2back:hover, #step2next:hover, #tostep1:hover,#step3back:hover, #step3next:hover, #step2back:hover,#tostep2:hover,.EOC:hover{
-    background-color: #0a480c;
+    background: #729762;
+    transition: 0.5s;
 }
 
 .qus{
     font-size: 30px;
     font-weight: bold;
     font-family: "Poppins", sans-serif;
+    color: #304D30;
 }
 
 .qus_inputs{
@@ -212,8 +223,7 @@ body{
 
 #s1, #s2, #s3{
     border-bottom: solid 4px;
-    border-color: #52AE77FF;
-    
+    border-color: #597445;    
 }
 
 .msg_box_container{
@@ -228,7 +238,7 @@ body{
     height: 325px; 
     position: fixed; 
     top: 30%;
-    background-color: rgb(113, 190, 144); 
+    background-color: #4d663a; 
     border-radius: 15px; 
     text-align: center; 
     padding: 30px 30px 0px 30px;  
