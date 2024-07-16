@@ -87,3 +87,7 @@ p {
     background: #729762;
     transition: 0.5s;
 }
+
+.btn:active {
+    transform: translateY(8px);
+}
