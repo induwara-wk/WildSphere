@@ -85,7 +85,7 @@ function handleInputEvent(key,a) {
     if(document.getElementById("progress-bar5").offsetWidth=="50"){
         tp+=1;
     }
-    document.getElementById("stepintext").innerHTML = tp + " of 5";
+    document.getElementById("stepintext").innerHTML = tp + " of 5 (" +(tp*20) +"%)";
 }
 
 const idai = {"firstName":1, "lastName":2, "email":3, "password":4, "confirmPassword":5}
@@ -270,7 +270,7 @@ function handleInputEvent2(key2,a) {
     if(document.getElementById("progress-bar9").offsetWidth=="50"){
         tp2+=1;
     }
-    document.getElementById("stepintext2").innerHTML = tp2 + " of 4";
+    document.getElementById("stepintext2").innerHTML = tp2 + " of 4 (" +(tp2*25) +"%)";
 }
 
 
@@ -359,20 +359,20 @@ function handleInputEvent3(key3,a) {
         document.getElementById(id).style.width = "0%"
     }
 
-    tp2 = 0;
+    tp3 = 0;
     if(document.getElementById("progress-bar10").offsetWidth=="50"){
-        tp2+=1;
+        tp3+=1;
     }
     if(document.getElementById("progress-bar11").offsetWidth=="50"){
-        tp2+=1;
+        tp3+=1;
     }
     if(document.getElementById("progress-bar12").offsetWidth=="50"){
-        tp2+=1;
+        tp3+=1;
     }
     if(document.getElementById("progress-bar13").offsetWidth=="50"){
-        tp2+=1;
+        tp3+=1;
     }
-    document.getElementById("stepintext3").innerHTML = tp2 + " of 4";
+    document.getElementById("stepintext3").innerHTML = tp3 + " of 4 (" +(tp3*25) +"%)";
 }
 
 
