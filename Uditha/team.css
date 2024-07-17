@@ -5,16 +5,18 @@ body{
     background-repeat: no-repeat; 
     background-attachment: fixed; 
     background-position: center; 
-    
 }
 
 .main{
     background-color: #FFFFFF78; 
     border-radius: 20px;
-    min-height: 450px;
-    margin: 20px 60px 150px 60px;
-    padding: 90px 0px 0px 0px;
+    width: 400px;
+    min-height: 400px;
+    margin: auto;
+    margin-bottom: 150px;
+    padding: 50px 0px 5px 0px;
     font-family: "Poppins", sans-serif;
+    min-width: 1200px;
     
 }
 
@@ -30,7 +32,6 @@ h1 {
     color: #1e4d2bc2;
     text-align: center;
     font-family: "Poppins", sans-serif;
-    
 }
 
 h3{
@@ -40,10 +41,10 @@ h3{
 
 .anchor{
     text-decoration: none;
-    margin: 0px 50px 0px 50px;
+    margin: auto;
     border-radius: 20px;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
-    width: 400px;
+    width: 300px;
     min-width: 200px;
     height: 50%;
     background-color: rgba(239, 248, 241, 0.449);
@@ -53,21 +54,6 @@ h3{
     filter: grayscale(40%);
     text-align: center;
 }
-
-/* .sub {
-    margin: 0px 50px 0px 50px;
-    border-radius: 20px;
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
-    width: 400px;
-    min-width: 200px;
-    height: 50%;
-    background-color: rgba(239, 248, 241, 0.449);
-    cursor: pointer;
-    overflow: hidden;
-    transition: transform 0.8s ease;
-    filter: grayscale(40%);
-    text-align: center;
-} */
 
 .content {
     transform: scale(0);
@@ -79,6 +65,7 @@ h3{
     bottom: 0;
     padding: 20px;
     box-sizing: border-box;
+    margin-top: 0%;
 }
 
 .sub:hover .content {
@@ -103,5 +90,6 @@ p{
 
 .images{
     border-radius:50%; 
-    margin-top: 30px;
+    margin-top: 22%;
+    margin-bottom: 15%;
 }
