@@ -38,11 +38,8 @@ h3{
     color: #1e4d2bc2;
 }
 
-a{
+.anchor{
     text-decoration: none;
-}
-
-.sub {
     margin: 0px 50px 0px 50px;
     border-radius: 20px;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
@@ -56,6 +53,21 @@ a{
     filter: grayscale(40%);
     text-align: center;
 }
+
+/* .sub {
+    margin: 0px 50px 0px 50px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    min-width: 200px;
+    height: 50%;
+    background-color: rgba(239, 248, 241, 0.449);
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform 0.8s ease;
+    filter: grayscale(40%);
+    text-align: center;
+} */
 
 .content {
     transform: scale(0);
@@ -73,7 +85,7 @@ a{
     transform: scale(1);
 }
 
-.sub:hover{
+.anchor:hover{
     transform: scale(1.1);
     filter: grayscale(0%);
 }
