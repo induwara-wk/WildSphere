@@ -224,7 +224,18 @@ body{
 
 #s1 span, #s2 span, #s3 span{
     border-bottom: solid 4px;
-    border-color: #597445;    
+    border-color: #597445;  
+}
+
+#s1,#s2,#s3{
+    margin-top: -15px;
+}
+
+.tick{
+    background-color: #59744500;
+    position: relative;
+    top: 12px;
+    right: 5px;
 }
 
 .msg_box_container{
