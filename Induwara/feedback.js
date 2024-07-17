@@ -127,6 +127,7 @@ function submitFeedback(){
     setTimeout(() => {redirectToForm();}, 5000);
 }
 
+// redirect to the home page
 function redirectToForm(){
 
     window.location.href = './home.html';
