@@ -480,7 +480,7 @@ function confirm(){
     document.querySelector(".EOC").disabled = true;
     document.getElementById("confirm").disabled = true;
     count();
-    setTimeout(function(){window.location.replace("home.html");},5000);
+    setTimeout(function(){window.location.replace("../Induwara/home.html");},5000);
 }
 var t =6;
 function count(){
