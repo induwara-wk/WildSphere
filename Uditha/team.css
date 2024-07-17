@@ -35,6 +35,11 @@ h1 {
 
 h3{
     font-weight: 500;
+    color: #1e4d2bc2;
+}
+
+a{
+    text-decoration: none;
 }
 
 .sub {
