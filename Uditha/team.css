@@ -5,29 +5,41 @@ body{
     background-repeat: no-repeat; 
     background-attachment: fixed; 
     background-position: center; 
-}
-
-h1 {
-    font-family: "Arial";
-    font-size: 45px;
-    padding-top: 2%; 
-    color: black;
+    
 }
 
 .main{
     background-color: #FFFFFF78; 
     border-radius: 20px;
-    min-height: 470px;
+    min-height: 450px;
     margin: 20px 60px 150px 60px;
+    padding: 90px 0px 0px 0px;
+    font-family: "Poppins", sans-serif;
+    
 }
 
 .main2 {
     display: flex;
 }
 
+h1 {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-size: 45px;
+    font-weight: 530;
+    color: #1e4d2bc2;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+h3{
+    font-weight: 500;
+}
+
 .sub {
-    margin: 0px 50px 50px 50px;
-    border-radius: 10px;
+    margin: 0px 50px 0px 50px;
+    border-radius: 20px;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
     width: 400px;
     min-width: 200px;
