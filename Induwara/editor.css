@@ -1,5 +1,5 @@
 body{
-    background-image: url(assests/bg.jpg);
+    background: linear-gradient(rgba(4, 30, 4, 0.3), rgba(4,9,30,0.7)),url('./assests/bg.jpg');
 }
 .main{
     height: 800px;
