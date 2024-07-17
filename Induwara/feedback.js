@@ -93,7 +93,7 @@ function showPreview() {
     }
 
 
-    // Display the preview, if all inputs are valid
+    // Display the preview if all inputs are valid
     if (isValid){
         document.getElementById('previewName').innerText = name;
         document.getElementById('previewEmail').innerText = email;
@@ -126,6 +126,7 @@ function submitFeedback(){
 
     setTimeout(() => {redirectToForm();}, 5000);
 }
+
 
 // redirect to the home page
 function redirectToForm(){
