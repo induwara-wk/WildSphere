@@ -22,8 +22,8 @@ body {
 
 h1 {
     margin-top: 50px;
-    font-size: 45px;
-    font-weight: 500;
+    font-size: 50px;
+    font-weight: 530;
     color: #a0bca8;
     text-align: center;
     font-family: "Poppins", sans-serif;
@@ -59,7 +59,7 @@ h1 {
         display: block; 
 }
 body {
-    overflow-x: hidden; /* Hide horizontal scroll bar */
+    overflow-x: hidden; 
 }
 
 .structure img:hover {
@@ -69,15 +69,15 @@ body {
 
 /* Modal styles */
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: hidden; /* Prevent scrolling */
-    background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+    width: 100%; 
+    height: 100%; 
+    overflow: hidden; 
+    background-color: rgba(0, 0, 0, 0.9); 
 }
 
 .modal-content {
@@ -92,15 +92,15 @@ body {
     max-width: 1000px;
     background-color: #fefefe;
     border-radius: 10px;
-    margin-top: 50px; /* Add margin-top to create a gap */
-    max-height: 80%; /* Ensure the modal content fits within the viewport */
-    overflow: hidden; /* Prevent scrolling */
+    margin-top: 50px; 
+    max-height: 80%; 
+    overflow: hidden; 
 }
 
 .modal-left {
     position: relative;
     width: 60%;
-    max-height: 100%; /* Ensure the modal left content fits within the modal content */
+    max-height: 100%; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,16 +109,16 @@ body {
 .modal-right {
     width: 35%;
     padding: 20px;
-    max-height: 100%; /* Ensure the modal right content fits within the modal content */
-    overflow-y: auto; /* Allow vertical scrolling within the right content if needed */
+    max-height: 100%; 
+    overflow-y: auto; 
 }
 
 .modal img {
-    width: auto; /* Scale the image while maintaining aspect ratio */
-    height: auto; /* Scale the image while maintaining aspect ratio */
-    max-width: 100%; /* Ensure the image scales within the modal left content */
-    max-height: 100%; /* Ensure the image scales within the modal left content */
-    object-fit: contain; /* Scale the image while maintaining aspect ratio */
+    width: auto; 
+    height: auto; 
+    max-width: 100%; 
+    max-height: 100%; 
+    object-fit: contain; 
     border-radius: 10px;
 }
 
