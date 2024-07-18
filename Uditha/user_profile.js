@@ -4,7 +4,7 @@ let currentSlide = 0;
 
 function showSlide(index) {
 
-    if (currentSlide==1 && currentSlide2==3){ //me if eka naththan step 3 idala back to previus step dunnama step2input4 focus wenne na
+    if (currentSlide==1 && currentSlide2==3){
         setTimeout(function(){document.getElementById("step2input4").focus()},500);
     }else if (currentSlide==2 && currentSlide3==3){
         setTimeout(function(){document.getElementById("step3input4").focus()},500);
@@ -91,7 +91,7 @@ function handleInputEvent(key,a) {
 const idai = {"firstName":1, "lastName":2, "email":3, "password":4, "confirmPassword":5}
 
 for (let key in idai){
-    document.getElementById(key).addEventListener('input', function() { //lamda function eka wage
+    document.getElementById(key).addEventListener('input', function() {
         handleInputEvent(key,idai[key]);
         
     });
@@ -188,10 +188,10 @@ function showSlide2(index) {
     const inputlist = ["step2input1","step2input2","step2input3","step2input4"];
     
     if (currentSlide2==3){
-        document.getElementById("step2next").onclick = function() {changeSlide(1)}; //lambda function type
+        document.getElementById("step2next").onclick = function() {changeSlide(1)};
         setTimeout(function(){document.getElementById("step2input4").focus()},500);
     }else{
-        document.getElementById("step2next").onclick = function() {changeSlide2(1)}; //lambda function type
+        document.getElementById("step2next").onclick = function() {changeSlide2(1)};
     }
 
     if (document.getElementById(inputlist[currentSlide2]).value==""){
@@ -277,7 +277,7 @@ function handleInputEvent2(key2,a) {
 const idai2 = {"step2input1":1, "step2input2":2, "step2input3":3, "step2input4":4}
 
 for (let key2 in idai2){
-    document.getElementById(key2).addEventListener('input', function() { //lamda function eka wage
+    document.getElementById(key2).addEventListener('input', function() {
         handleInputEvent2(key2, idai2[key2]);
     });
 }
@@ -290,10 +290,10 @@ function showSlide3(index) {
     const inputlist = ["step3input1","step3input2","step3input3","step3input4"];
     
     if (currentSlide3==3){
-        document.getElementById("step3next").onclick = function() {summary()}; //lambda function type
+        document.getElementById("step3next").onclick = function() {summary()};
         setTimeout(function(){document.getElementById("step3input4").focus()},500);
     }else{
-        document.getElementById("step3next").onclick = function() {changeSlide3(1)}; //lambda function type
+        document.getElementById("step3next").onclick = function() {changeSlide3(1)};
     }
 
     if (document.getElementById(inputlist[currentSlide3]).value==""){
@@ -379,7 +379,7 @@ function handleInputEvent3(key3,a) {
 const idai3 = {"step3input1":1, "step3input2":2, "step3input3":3, "step3input4":4}
 
 for (let key3 in idai3){
-    document.getElementById(key3).addEventListener('input', function() { //lamda function eka wage
+    document.getElementById(key3).addEventListener('input', function() {
         handleInputEvent3(key3, idai3[key3]);
     });
 }
