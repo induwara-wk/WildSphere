@@ -39,9 +39,4 @@ document.getElementById('back-to-top').addEventListener('click', function() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 });
 
-document.querySelector('.menu-icon').addEventListener('click', function() {
-    document.querySelector('.navbar ul').classList.toggle('show');
-});
-
-
 // Template - end //

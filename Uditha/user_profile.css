@@ -94,7 +94,7 @@ body{
 
 .steps{
     display: inline;
-    margin-right: 6%;
+    margin-right: 5%;
     padding: 0% 9px 4px 9px;
     font-weight: 700;
 }
@@ -135,8 +135,9 @@ body{
 .subslide ul{
     list-style-type: none; 
     padding-top: 40px; 
-    font-size:x-large; width: 70%; 
-    margin-left: 20%; 
+    font-size:x-large; 
+    width: 70%; 
+    margin-left: 18%; 
     margin-bottom: 20px; 
     display: flex;
 }
@@ -221,9 +222,20 @@ body{
     width: 70%;
 }
 
-#s1, #s2, #s3{
+#s1 span, #s2 span, #s3 span{
     border-bottom: solid 4px;
-    border-color: #597445;    
+    border-color: #597445;  
+}
+
+#s1,#s2,#s3{
+    margin-top: -15px;
+}
+
+.tick{
+    background-color: #59744500;
+    position: relative;
+    top: 12px;
+    right: 5px;
 }
 
 .msg_box_container{
