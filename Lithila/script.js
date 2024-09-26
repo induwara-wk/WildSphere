@@ -41,5 +41,8 @@ document.getElementById('back-to-top').addEventListener('click', function() {
 
 // Template - end //
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 
